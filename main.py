@@ -227,7 +227,7 @@ def create_figure():
     # ys = [random.randint(1, 50) for x in xs]
     ysCustomer = [customerBefore, customerAfter]
     # ysCustomer = [100, 200]
-    axis.plot(xs, ysCustomer, label='You')
+    axis.plot(xs, ysCustomer, label='You', color='red')
     ysSample = [sampleBefore, sampleAfter]
     # ysSample = [120, 220]
     axis.plot(xs, ysSample, label='Similar Customer')
